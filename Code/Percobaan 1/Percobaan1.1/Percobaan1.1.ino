@@ -1,5 +1,6 @@
 char pinsCount = 6;
 int pins[] = {3, 5, 6, 9, 10, 11};
+
 void setup() {
   for (int i = 0; i < pinsCount; i++) {
     pinMode(pins[i], OUTPUT);
